@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  frontend:
+    build: .
+    ports:
+    - 5152:5152
+    volumes:
+    - .:/app/frontend
